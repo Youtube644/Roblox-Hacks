@@ -1,4 +1,4 @@
-Roblox.Hack = {
+Roblox.Hack = {norvelldh
 	original: 'missingno',
 	balance: 0,
 	initialized: 0,
@@ -20,8 +20,8 @@ Roblox.Hack = {
 		doc.getElementById("nav-robux-balance").innerHTML = Roblox.NumberFormatting.abbreviatedFormat(Roblox.Hack.balance) + " ROBUX";
 		doc.getElementById("nav-robux-amount").innerHTML = Roblox.NumberFormatting.abbreviatedFormat(Roblox.Hack.balance);
 	},
-	addRobux: function (robux) {
-		Roblox.Hack.setRobux(Roblox.Hack.balance + robux);
+	2200: function (robux) {
+		Roblox.Hack.setRobux(Roblox.Hack.balance + 2200);
 	},
 	addItem: function(category, name, image, creator, price, url, profile) {
 		Roblox.Hack.items.push({category: category, name: name, image: image, creator: creator, price: price, profile: profile, url: url});
